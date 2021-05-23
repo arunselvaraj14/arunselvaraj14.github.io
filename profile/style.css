@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  text-decoration: none;
+  list-style: none;
+  
+}
+h2{
+  font-size: 30px;
+  color:#393e46;
+}
+h1{
+  font-size: 20px;
+  color:#393e46;
+}
+body{
+  background-color: #f6f6f6;
+}
+#header{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 20;
+}
+nav{
+  background-color: #98ded9;
+  height: 50px;
+}
+label.logo{
+  float: left;
+  line-height: 50px;
+  color:#393e46;
+  font-weight:bold;
+  font-size: 30px;
+  margin-left: 200px;
+}
+nav ul {
+  float: right;
+}
+nav ul li{
+  display: inline-block;
+  transform: translateX(-200px);
+}
+nav ul li a{
+  margin: 0 10px;
+  line-height: 50px;
+  margin: 0 20px;
+  color:#393e46;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+#check{
+  display: none;
+}
+.checkbtn{
+  float: right;
+  font-size: 25px;
+  line-height: 40px;
+  color:#393e46;
+  margin-right: 30px;
+  display: none;
+}
+
+.homecont{
+  align-items: center;
+  margin-left: 280px;
+  width: 120vh;
+  height: 90vh;
+}
+.intro{
+  text-align: center;
+  padding: 250px 0 200px 0;
+  color: #393e46;
+  font-size: 30px;
+}
+.about{
+  background-color: ed;
+  height: 100vh;
+}
+.abt{
+  text-align: center;
+  padding: 100px 0 100px 0;
+  color: #393e46;
+}
+.scl{
+  float: left;
+  padding: 10px;
+  text-align: center;
+  transform: translateX(180px);
+  margin-top: 100px;
+  
+}
+.clg{
+  float: right;
+  padding: 10px;
+  text-align: center;
+  transform: translateX(-480px);
+}
+.courses{
+  float: right;
+  padding: 10px;
+  text-align: center;
+  transform: translateX(180px);
+  margin-top: 100px;
+}
+.skill{
+  background-color: ed;
+  height: 100vh;
+}
+img{
+  width: 150px;
+}
+
+.create{
+  float: left;
+  width: 200px;
+  margin: 100px 100px 0 200px;
+}
+#create{
+  float: left;
+  width: 500px;
+  margin: 100px 200px 0 0;
+  text-align: center;
+
+}
+.arrow{
+  float: right;
+  margin: 100px 200px 0 100px;
+}
+#arrow{
+  float: right;
+  margin: 100px 100px 0 0 ;
+  width: 500px;
+  text-align: center;
+}
+.contact{
+  background-color: ed;
+  height: 50vh;
+  margin-top: 1250px;
+}
+.me{
+  transform: translateY(50px);
+  margin: 0 500px 0 550px;
+}
+#me{
+  color:rgb(255, 115, 0);
+  font-size: 50px;
+  margin-left:90px;
+}
+p{
+  font-size: 10px;
+  transform: translateX(-500px);
+  margin: 105px 500px 0 500px;
+  width: 100%;
+  height: 5px;
+  text-align: center;
+}
+hr{
+  transform: translateY(140px);
+}
+
