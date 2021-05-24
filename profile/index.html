@@ -1,79 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-  <div id="header">
-    <nav >
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label for="" class="logo">AK</label>
-      <ul >
-        <li><a href="#sect1">HOME</a></li>
-        <li><a href="#sect2">About</a></li>
-        <li><a href="#sect3">My Skills</a></li>
-        <li><a href="#sect4">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div>
-    <section id="sect1">
-      <div class="homecont">
-        <h1 class="intro">Hi I am  Arun Kumar and this is my site to reveal my profile and skillset to you, scroll further for more details <i class="fas fa-angle-double-down"></i></h1>
-      </div>
+    <header>
+        <a href="#" class="logo">AK</a>
+        <div class="checkbtn" onclick="togglemenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner"onclick="togglemenu();">Home</a></li>
+            <li><a href="#about"onclick="togglemenu();">About</a></li>
+            <li><a href="#skill"onclick="togglemenu();">Skills</a></li>
+            <li><a href="#contact"onclick="togglemenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>H<span class="i">i</span> Folks </h2>
+            <p>I am Arun Kumar and this is my site to reveal my profile and skillset to you, scroll further for more details <i class="fas fa-angle-double-down"></i></p>
+        </div>
     </section>
-  </div>
-  <div><br>
-    <section id="sect2">
-      <div class="about"><h2 class="abt">I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.</h2>
-      <div class="scl"><h2>Schooling <i class="fas fa-school"></i></h2><h1>St.Savio.Mat.HrSec.School  <br>SSLC-92% <br>HSC-76%</h1></div>
-      <div class="clg"><h2>College <i class="fas fa-graduation-cap"></i></h2><h1>Jerusalem Collegeof Engineering <br>B.E-Biomedical(Pursuing) <br>CGPA-7.6/10</h1></div>
-      <div class="courses"><h2>Course <i class="fas fa-laptop-code"></i></h2><h1>BesantTechnologies <br>Full Stack Development <Br>Pursuing<Br></h1></div>
-
-      </div><br>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titletext"><span>A</span>bout me</h2>
+                <p>I am ambitious and driven. I thrive on challenge and constantly set goals for myself, so I have something to strive towards. I’m not comfortable with settling, and I’m always looking for an opportunity to do better and achieve greatness.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img\ambition.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
     </section>
-  </div>
-  <div>
-    <section id="sect3">
-     <div class="skill" >
-       <div class="create"><img src="img/creative-thinking.png" alt=""></div>
-       <div id="create"><h2>Iam a Creative Thinker with</h2><h1>Analysis <br>Open-Mindedness <br>Problem-Solving <br>Organization  &<br>Communication </h1></div>
-       <div class="arrow"><img src="img/arrow.png" alt=""></div>
-       <div id="arrow"><h2>Iam a Passionate Worker, Who</h2><h1>Set Goals <br>Learn new things<br>Quick Learner<br>Well Planner &<br>Implementer</h1></div>
-       <div class="create"><img src="img/painter.png" alt=""></div>
-       <div id="create"><h2>Iam an Artist with</h2><h1>Patience<br>Observance <br> Curiosity  <br>Practice  &<br>Elegance </h1></div>
-       <div class="arrow"><img src="img/illustrator.png" alt=""></div>
-       <div id="arrow"><h2>Iam an Illustrator </h2><h1>Vector Art<br>Digital Painting <br>Conceptual Art <br>Logo &<br>Poster Designer </h1></div>
-       <div class="create"><img src="img/paint-palette.png" alt=""></div>
-       <div id="create"><h2>Iam a Free-time Editor</h2><h1>Photo-Manipulation <br>Basic 2D-Animation<br>Basic 3D-Model <br>Plays with Light &<br>Shadows</h1></div>
-       <div class="arrow"><img src="img/web-design.png" alt=""></div>
-       <div id="arrow"><h2>Iam a Pursuing Web Developer</h2><h1>HTML5 <br>CSS3<br>JavaScript<br>React JS<br>Python & <br>MySQl </h1></div><br>
-     </div>
+    
+    <section class="menu">
+        <div class="title">
+            <h2 class="titletext"><span>Q</span>ualification</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgbx">
+                    <div class="img">
+                        <h2 class="titletext">Schooling&nbsp;<i class="fas fa-school"></i></h2>
+                        <p class="p">St.Savio.Mat.HrSec.School <br> SSLC-92% <br> HSC-76%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <div class="img">
+                        <h2 class="titletext">College <i class="fas fa-graduation-cap"></i></h2><p>Jerusalem Collegeof Engineering <br>B.E-Biomedical(Pursuing) <br>CGPA-7.6/10</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <div class="img">
+                        <h2 class="titletext">Course <i class="fas fa-laptop-code"></i></h2><p>BesantTechnologies <br>Full Stack Development <Br>Pursuing<Br></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-  </div>
-  <div>
-    <section id="sect4">
-      <div class="contact">
-        <div class="me"><h2>Contact me on</h2><br><a href="https://www.instagram.com/_nite_fury_/" target="_blank"><i id="me" class="fab fa-instagram"></i></a></div>
-        <hr>
-        <div><p>This site is Developed By Arunkumar using HTML5 and CSS only <br>Learning Responsive Website Making Soon This site will be available in mobile devices</p></div>
-        <div><p></p></div>
-        
-      </div>
-    </section>
-  </div>
-  <script>
-    alert('This site is better viewed in Desktop  {Learning responsive website} soon available in mobile devices')
-  </script>
+</section>
+<section class="skill" id="skill">
+    <div class="title white">
+        <h2 class="titletext">My <span>S</span>kills</h2>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/creative-thinking.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam a Creative Thinker with</h2>
+                <p>Analysis <br>Open-Mindedness <br>Problem-Solving <br>Organization  &<br>Communication </p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/arrow.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam a Passionate Worker, Who</h2>
+                <p>Set Goals <br>Learn new things<br>Quick Learner<br>Well Planner &<br>Implementer</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/painter.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam an Artist with</h2>
+                <p>Patience<br>Observance <br> Curiosity  <br>Practice  &<br>Elegance</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/illustrator.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam an Illustrator</h2>
+                <p>Vector Art<br>Digital Painting <br>Conceptual Art <br>Logo &<br>Poster Designer</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/paint-palette.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam a Free-time Editor</h2>
+                <p>Photo-Manipulation <br>Basic 2D-Animation<br>Basic 3D-Model <br>Plays with Light &<br>Shadows</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgbx">
+                <img src="img/web-design.png" alt="">
+            </div>
+            <div class="text">
+                <h2 class="h3">Iam a Pursuing Web Developer</h2>
+                <p>HTML5 <br>CSS3<br>JavaScript<br>React JS<br>Python & <br>MySQl </p>
+            </div>
+        </div>
+    </div>
+</section><br>
+<section class="contact" id="contact">
+    <div class="title white">
+        <h2 class="titletext"><span>C</span>ontact me</h2>
+    </div>
+    <div class="contactform">
+        <h3>Send Message</h3>
+        <div class="inputbox">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="inputbox">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="inputbox">
+            <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="inputbox">
+            <input type="submit" value="Send">
+        </div>
+    </div>
+</section>
+<div class="copyrighttext">
+    <p>Copyright &copy; 2021 Arunkumar</p>
+</div>
+<script src="script.js"></script>  
 </body>
 </html>
